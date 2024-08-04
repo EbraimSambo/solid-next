@@ -11,7 +11,7 @@ async function bootstrap() {
       transform: true,
     })
   )
-  app.setGlobalPrefix('auth')
+  app.setGlobalPrefix('api')
   await app.listen(8000);
 }
 bootstrap();
